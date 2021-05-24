@@ -57,7 +57,7 @@ yarn dev
 npm start ./server/server.js
 ```
 
--> localhost:3002/api 에서 확인 가능
+### -> localhost:3002/api 에서 확인 가능
 
 > 참고 링크 :
 >
@@ -74,26 +74,26 @@ npm start ./server/server.js
 npm install firebase --save
 npm install -g firebase-tools
 
-// 작업 구성
-1) /server/routes/firebase/config.js 에 firebase 설정정보 입력.
-2) /server/server.js를 실행시키면, /server/routes/index.js의 express와 firebase를 읽는다.
-3) server Url은 /src/setProxy.js 에서 담당한다.
+* 작업 구성
+* * 1) /server/routes/firebase/config.js 에 firebase 설정정보 입력.
+* * 2) /server/server.js를 실행시키면, /server/routes/index.js의 express와 firebase를 읽는다.
+* * 3) server Url은 /src/setProxy.js 에서 담당한다.
 
-// 계정연동
+* 계정연동
 firebase login
 
-// 개발방법. 정적개발진행하기
+* 개발방법. 정적개발진행하기
 firebase init functions
 
-// 로컬서버로 정상 동작 확인하기
+* 로컬서버로 정상 동작 확인하기
 firebase serve
 
 참고 :
 https://alvine.tistory.com/243
 ```
 
-참고링크 :
-
-https://firebase.google.com/docs/web/setup?authuser=0#with-npm_1
-
-https://velog.io/@junsugi/conquer-nodeJs-6#firebase-%EB%AA%A8%EB%93%88-%EC%84%A4%EC%B9%98
+> 참고링크 :
+>
+> https://firebase.google.com/docs/web/setup?authuser=0#with-npm_1
+>
+> https://velog.io/@junsugi/conquer-nodeJs-6#firebase-%EB%AA%A8%EB%93%88-%EC%84%A4%EC%B9%98
