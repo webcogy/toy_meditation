@@ -1,5 +1,10 @@
 # 토이프로젝트 - 명상&힐링
 
+- 사용기술
+  - React
+  - Nodejs
+  - firebase (DB)
+
 ## [1] React & Nodejs 연동
 
 ### 1. React Project 파일 만들기
