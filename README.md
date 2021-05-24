@@ -3,11 +3,14 @@
 - 사용기술
   - HTML
   - CSS
-    - styled-components
+    - styled-components - 미작업
   - JS
+    - typescript - 미작업
     - react
+    - redux - 미작업
+    - nextjs - 미작업
     - nodejs
-  - firebase (DB)
+  - DB firebase
 
 ## [1] React & Nodejs 연동
 
