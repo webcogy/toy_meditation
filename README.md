@@ -1,8 +1,12 @@
 # 토이프로젝트 - 명상&힐링
 
 - 사용기술
-  - React
-  - Nodejs
+  - HTML
+  - CSS
+    - styled-components
+  - JS
+    - react
+    - nodejs
   - firebase (DB)
 
 ## [1] React & Nodejs 연동
