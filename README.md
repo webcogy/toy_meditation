@@ -10,6 +10,7 @@
     - redux - 미작업
     - nextjs - 미작업
     - nodejs
+      - express
   - DB firebase
 
 ## [1] React & Nodejs 연동
