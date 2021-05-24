@@ -60,7 +60,6 @@ npm start ./server/server.js
 ### -> localhost:3002/api 에서 확인 가능
 
 > 참고 링크 :
->
 > https://velog.io/@ksy990628/ReactNodejs-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-%EC%88%98%EC%A0%95%EC%A4%91
 >
 > https://singa-korean.tistory.com/22?category=829618
@@ -88,11 +87,10 @@ firebase init functions
 // 로컬서버로 정상 동작 확인하기
 firebase serve
 
-참고 :
-https://alvine.tistory.com/243
 ```
 
 > 참고링크 :
+> https://alvine.tistory.com/243
 >
 > https://firebase.google.com/docs/web/setup?authuser=0#with-npm_1
 >
