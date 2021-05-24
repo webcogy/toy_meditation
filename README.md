@@ -1,6 +1,6 @@
 # 토이프로젝트 - 명상&힐링
 
-## React & Nodejs 연동
+## [1] React & Nodejs 연동
 
 ### 1. React Project 파일 만들기
 
