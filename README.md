@@ -107,9 +107,10 @@ firebase serve
 
 ## [3] typescript
 
+기존 js 기반 react프로젝트에 typescript 적용
+※ @types가 앞에 붙으면 타입스크립트가 지원되는 라이브러리임.
+
 ```
-// 기존 js 기반 react프로젝트에 typescript 적용
-// ※ @types가 앞에 붙으면 타입스크립트가 지원되는 라이브러리임.
 yarn add typescript @types/node @types/react @types/react-dom @types/jest
 ```
 
