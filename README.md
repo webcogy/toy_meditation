@@ -103,3 +103,25 @@ firebase serve
 > https://firebase.google.com/docs/web/setup?authuser=0#with-npm_1
 >
 > https://velog.io/@junsugi/conquer-nodeJs-6#firebase-%EB%AA%A8%EB%93%88-%EC%84%A4%EC%B9%98
+
+## [3] typescript
+
+```
+// 기존 js 기반 react프로젝트에 typescript 적용
+// ※ @types가 앞에 붙으면 타입스크립트가 지원되는 라이브러리임.
+yarn add typescript @types/node @types/react @types/react-dom @types/jest
+```
+
+1. jsconfig.js 파일이 있다면 삭제
+2. yarn.lock과 package-lock.json 파일이 같이 있으면 안된다. 해당 파일을 지워주고 아래 명령문을 실행한다.
+
+```
+yarn install
+```
+
+3. tsconfig.json에 블로그의 내용대로 넣어준다.
+4. app.js, index.js 의 확장자를 jsx로 변경한다.
+5. yarn start . 끝
+
+> 참고링크 :
+> https://haerang94.tistory.com/155
