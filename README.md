@@ -5,7 +5,7 @@
   - CSS
     - styled-components - 미작업
   - JS
-    - typescript - 미작업
+    - typescript
     - react
     - redux - 미작업
     - nextjs - 미작업
@@ -13,7 +13,6 @@
       - express
   - DB firebase
   - storybook - 미작업
-
 
 ## [1] React & Nodejs 연동
 
