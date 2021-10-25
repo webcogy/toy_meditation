@@ -13,7 +13,7 @@ router.get('/dh', function(req, res){
 
 // FIREBASE 연결 성공
 router.get('/save', function(req, res){
-    database.ref('customer').set({name : "daehyun"}, function(error) {
+    database.ref('customer').set({name : "daehyun5"}, function(error) {
         if(error)
             console.error(error)
         else

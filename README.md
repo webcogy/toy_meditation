@@ -127,3 +127,11 @@ yarn install
 
 > 참고링크 :
 > https://haerang94.tistory.com/155
+
+#### concurrently ( package.json scripts 동시 실행 )
+
+```
+npm install concurrently
+```
+
+https://codingstep.tistory.com/entry/Client-%EC%84%9C%EB%B2%84%EC%99%80-Express-%EC%84%9C%EB%B2%84-%EB%8F%99%EC%8B%9C%EC%97%90-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0-feat-Concurrently

@@ -11,6 +11,7 @@
     "@types/react": "17.0.8",
     "@types/react-dom": "17.0.5",
     "body-parser": "1.19.0",
+    "concurrently": "6.3.0",
     "ejs": "2.7.4",
     "express": "4.17.1",
     "express-session": "1.17.2",
@@ -24,11 +25,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "client": "react-scripts start",
+    "server": "supervisor ./server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "supervisor ./server/server.js"
+    "dev": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server\""
   },
   "eslintConfig": {
     "extends": [
